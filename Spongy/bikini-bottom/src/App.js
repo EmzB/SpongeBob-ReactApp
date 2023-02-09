@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
-
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = "container">
+    <div className= "spongy">
+    <div className="spongy-section">
+      <img className="spongy-img" src="sp-img.jpg" /> 
+      
+      </div>
+      <div className="text">
+      <h2> Hi! SpongeBob here</h2>
+      <p> Today we'll practice <strong> Map </strong>, <strong> Reduce </strong> and <strong> Filter </strong></p>
+    
+      </div>
+      
+    </div> 
+      <div className= "results">
+        <results/>
+        </div> 
+
+    </div>
+    
     </div>
   );
 }
