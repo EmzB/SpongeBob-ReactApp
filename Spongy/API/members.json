@@ -1,12 +1,13 @@
 {
     "name": "SpongeBob",
-    "age" : 10,
+    "age": 10,
     "occupation": "cook",
     "personality": "Extrovert",
-    "offences": "none he's a good boy!"}, 
+    "offences": "none he's a good boy!"
+}, 
 {
  "name": "Patrick",
- "age" 10,
+ "age" : 10,
  "occupation": "Living life",
 "personality": "Extrovert",
 "offences": " many but he get's a pass!"

@@ -13,6 +13,6 @@ app.use('/members', memberRoutes)
 
 app.listen(PORT, ()=> console.log(`Hey girl I'm running on: http://localhost:${PORT}`) )
 
-app.get('/', (request,respond )=> {
-respond.send(" Hi")}
+app.get('/', (req,res )=> { //this is the default route
+respond.send(" Hi homepage is up!")}
 )
