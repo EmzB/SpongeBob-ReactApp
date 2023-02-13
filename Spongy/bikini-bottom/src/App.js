@@ -1,27 +1,19 @@
 import './App.css';
+import users from './users.js'
+import results from './results.js'
 function App() {
+const [products, setProducts] = useState(products)
   return (
-    <div className="App">
-    <div className = "container">
-    <div className= "spongy">
-    <div className="spongy-section">
-      <img className="spongy-img" src="sp-img.jpg" /> 
-      
-      </div>
-      <div className="text">
-      <h2> Hi! SpongeBob here</h2>
-      <p> Today we'll practice <strong> Map </strong>, <strong> Reduce </strong> and <strong> Filter </strong></p>
-    
-      </div>
-      
-    </div> 
-      <div className= "results">
-        <results/>
-        </div> 
+    <main>
+<h2>Bikini Bottom Register</h2>
 
-    </div>
-    
-    </div>
+ <div className="btns">
+  <button onclick={()=> console.log("map")}> Map</button>
+  <button onclick={()=> console.log("reduce")}>Reduce</button>
+  <button onclick={()=> console.log("filter")}>Filter</button>
+  <results/>
+ </div> 
+ </main>  
   );
 }
 
