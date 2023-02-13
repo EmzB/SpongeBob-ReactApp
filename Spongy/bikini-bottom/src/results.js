@@ -1,24 +1,20 @@
 import React from 'react'
-const members = ({users})=> {
-    return
-    (
+const Results=({users})=> { //functional component
+    return (
         <>
-        {members.map((member) => {
-            const {id,name,occupation,residence,age} = member;
-            return
-            <section key={id} >
-                <h4> {id}</h4>
-                <div>
-             <p> name : {name}</p>
-             <p> occupation : {occupation}</p>
-             <p> residence : {residence}</p>
+        {users.map((user) => {
+            const {id, name, occupation, residence, age}= user;
+        return(
+            <div key={id} className="citizens"> 
+            <h4>{name}</h4>
+            
+             </div>
+        )
+        })}
 
-
-                </div>
-            </section>
-
-        }) }
-        </>
-    );
+    
+    </>
+    )
 }
-export default members;
+    export default Results;
+    

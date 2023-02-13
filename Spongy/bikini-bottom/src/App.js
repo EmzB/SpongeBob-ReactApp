@@ -2,7 +2,7 @@ import React from 'react';
 import {useState} from 'react'
 import './App.css';
 import data from './users.js'
-import members from './results.js'
+import Results from './results.js'
 function App() {
   const [users, setUsers]= useState(data)
   return (
@@ -13,7 +13,7 @@ function App() {
 <button className="filter" onClick={()=> console.log("filter works")}>Filter</button>
 <button className="reduce" onClick={()=>console.log("reduce works")}>Reduce</button>
 </div>
-<results users={users}/>
+<Results users={users}/>
  </main>  
   );
 }

@@ -36,4 +36,4 @@ export default [{ id: 1,
     residence:"bikini bottom",
     age: 69
 },
-]
+];
