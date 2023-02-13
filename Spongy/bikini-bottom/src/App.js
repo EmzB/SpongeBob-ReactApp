@@ -1,18 +1,19 @@
+import React from 'react';
+import {useState} from 'react'
 import './App.css';
-import users from './users.js'
-import results from './results.js'
+import data from './users.js'
+import members from './results.js'
 function App() {
-const [products, setProducts] = useState(products)
+  const [users, setUsers]= useState(data)
   return (
     <main>
-<h2>Bikini Bottom Register</h2>
-
- <div className="btns">
-  <button onclick={()=> console.log("map")}> Map</button>
-  <button onclick={()=> console.log("reduce")}>Reduce</button>
-  <button onclick={()=> console.log("filter")}>Filter</button>
-  <results/>
- </div> 
+<h2>Bikini Bottom Register {users.length} </h2>
+<div className="buttons"> 
+<button className="map" onClick={()=> console.log("map works")}>Map</button>
+<button className="filter" onClick={()=> console.log("filter works")}>Filter</button>
+<button className="reduce" onClick={()=>console.log("reduce works")}>Reduce</button>
+</div>
+<results users={users}/>
  </main>  
   );
 }

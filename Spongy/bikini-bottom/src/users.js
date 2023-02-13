@@ -1,9 +1,8 @@
-export default
-[{ id: 1,
+export default [{ id: 1,
     name:"Spongebob",
     occupation: "cook",
     residence: "bikini bottom",
-    pic: "loading"
+    age: 39
 
 },
 {
@@ -11,7 +10,7 @@ export default
     name:"Sandy",
     occupation: "Scientist",
     residence: "bikini bottom",
-    pic: "loading"
+    age: 19
 
 
 },
@@ -20,7 +19,7 @@ export default
     name:"Plankton",
     occupation:"Evil Genius",
     residence: "bikini bottom",
-    pic: "loading"
+    age: 29
 
 },
 {
@@ -28,13 +27,13 @@ export default
     name:"Krabs",
     occupation:"Manager",
     residence:"bikini bottom",
-    pic: "loading"
+    age: 89
 },
 {
     id: 5,
     name:"Squidward",
     occupation:"Cook",
     residence:"bikini bottom",
-    pic: "loading"
+    age: 69
 },
 ]

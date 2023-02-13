@@ -1,13 +1,13 @@
-const results = ({users})=> {
+import React from 'react'
+const members = ({users})=> {
     return
     (
         <>
-        {products.map((user) => {
-            const {id,name,occupation,residence,pic} = users;
+        {members.map((member) => {
+            const {id,name,occupation,residence,age} = member;
             return
             <section key={id} >
                 <h4> {id}</h4>
-                <img src={image}> </img>
                 <div>
              <p> name : {name}</p>
              <p> occupation : {occupation}</p>
@@ -21,3 +21,4 @@ const results = ({users})=> {
         </>
     );
 }
+export default members;
