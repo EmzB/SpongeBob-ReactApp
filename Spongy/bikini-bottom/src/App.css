@@ -1,8 +1,75 @@
-h2{
-  font-size: 30px;
-  font-family:'Times New Roman', Times, serif;
-  text-transform:uppercase;
+.main{
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: auto;
+  grid-gap: 3%
+}
+
+
+
+.citizens{
+  height: 100%;
+  width: 80%;
+  background-color:rgb(209, 234, 134);
+  margin: 2%;
+  display: grid;
+  color: rgb(9, 14, 13);
+  border-radius: 10%;
+  border: 2px solid rgb(150, 89, 99);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.card {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  
+
+}
+.pic {
+  position: relative;
+  width:40%;
+  height: 66%;
+  margin-right:0;
+  margin-top: 1.5%;
+  right: 10px;
+
+}
+.pic2{
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
+  background-color:rgb(183, 228, 132);
+  background-image: url('/public/sp.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  object-fit:cover;
+  background-size: 100%;
+
+}
+
+
+.details{
+  width: 60%;
+  height: 68%;
+  font-size: 1em;
+  line-height: 3em;
+  color:rgb(6, 32, 2);
+  font-family: 'Courier New', Courier, monospace;
+  z-index: 2;
+  border-radius: 3%;
+  border:2px solid rgb(22, 19, 23);
   text-align: center;
-  color: wheat;
-  margin-top: 1rem;
+  font-weight: bold;
+}
+.details> p {
+border: 2px solid black;
+margin: 2%;
+background-color: #f7e2ba;
+text-shadow: #4697c9;
+
 }

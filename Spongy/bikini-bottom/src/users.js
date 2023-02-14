@@ -2,7 +2,8 @@ export default [{ id: 1,
     name:"Spongebob",
     occupation: "cook",
     residence: "bikini bottom",
-    age: 39
+    age: 39,
+    pic: '/public/sp.png'
 
 },
 {
@@ -10,7 +11,9 @@ export default [{ id: 1,
     name:"Sandy",
     occupation: "Scientist",
     residence: "bikini bottom",
-    age: 19
+    age: 19,
+    pic: '/public/sandyy.png'
+
 
 
 },
@@ -19,7 +22,9 @@ export default [{ id: 1,
     name:"Plankton",
     occupation:"Evil Genius",
     residence: "bikini bottom",
-    age: 29
+    age: 29,
+    pic: '/public/plankton.png'
+
 
 },
 {
@@ -27,13 +32,16 @@ export default [{ id: 1,
     name:"Krabs",
     occupation:"Manager",
     residence:"bikini bottom",
-    age: 89
+    age: 89,
+    pic: '/public/krabs.png'
+
 },
 {
     id: 5,
     name:"Squidward",
     occupation:"Cook",
     residence:"bikini bottom",
-    age: 69
+    age: 69,
+    pic: '/public/krabs.png'
 },
 ];
